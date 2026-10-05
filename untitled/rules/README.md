@@ -5,9 +5,17 @@ icon: scale-balanced
 
 # Правила
 
+{% columns %}
+{% column width="50%" %}
 {% hint style="warning" %}
 Покупая товары в нашем магазине или принимая TOS, вы автоматически соглашаетесь соблюдать эти правила.
 {% endhint %}
+{% endcolumn %}
+
+{% column width="50%" %}
+![](../.gitbook/assets/screenshot_vibe-2.jpg)
+{% endcolumn %}
+{% endcolumns %}
 
 ## Разделы
 
