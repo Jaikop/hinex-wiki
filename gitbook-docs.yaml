@@ -1,5 +1,31 @@
-root: ./
-
-structure:
-  readme: README.md
-  summary: SUMMARY.md
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Hinex Docs
+  structure:
+    - type: section
+      key: section-1
+      title: Hinex Docs
+      path: hinex-docs
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Untitled
+          path: untitled
+          default: true
+          content:
+            directory: ./untitled
+    - type: section
+      key: section-2
+      title: INFO
+      path: info
+      icon: grid-4
+      children:
+        - type: space
+          key: space-2
+          title: INFO
+          path: info
+          default: true
+          draft: true
+          content:
+            directory: ./info
